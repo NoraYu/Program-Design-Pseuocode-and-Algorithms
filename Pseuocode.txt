@@ -21,5 +21,5 @@ Declare Float  water_gallon
 Prompt roof_length,  roof_width,  rainfall_inches
 Get roof_length,  roof_width,  rainfall_inches
 
-water_gallon=roof_length * roof_width * 144 *  rainfall_inches/231
+Calculate water_gallon=roof_length * roof_width * 144 *  rainfall_inches/231
 
