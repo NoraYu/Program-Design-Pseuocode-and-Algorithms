@@ -1,0 +1,25 @@
+1. Find the average score
+Declare Integer sum =0
+Declare Integer personal_score
+Declare Integer avg
+
+for(Integer counter=0; counter < 10;counter++){
+	Prompt user for personal_score;
+	Get  personal_score;
+	Update sum=sum+personal_score
+}
+
+
+
+2. How much water runs off the roof
+How much water runs off a roof in a rain storm?
+Declare Float  roof_length 
+Declare Float  roof_width 
+Declare Float  rainfall_inches
+Declare Float  water_gallon
+
+Prompt roof_length,  roof_width,  rainfall_inches
+Get roof_length,  roof_width,  rainfall_inches
+
+water_gallon=roof_length * roof_width * 144 *  rainfall_inches/231
+
