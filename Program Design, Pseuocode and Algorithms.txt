@@ -13,14 +13,18 @@ for(Integer counter=0; counter < 10;counter++){
 
 2. How much water runs off the roof
 How much water runs off a roof in a rain storm?
-Declare Float  roof_length_ft
-Declare Float  roof_width_ft
-Declare Float  rainfall_inches
-Declare Float  water_gallon
+
+Module Main
+
+	Declare Float  roof_length_ft
+	Declare Float  roof_width_ft
+	Declare Float  rainfall_inches
+	Declare Float  water_gallon
 
 
-Prompt roof_length_ft,  roof_width_ft,  rainfall_inches
-Get roof_length,  roof_width,  rainfall_inches
+	Prompt roof_length_ft,  roof_width_ft,  rainfall_inches
+	Get roof_length,  roof_width,  rainfall_inches
 
-Calculate water_gallon = roof_length_ft * roof_width_ft * 144 * rainfall_inches/231
+	Calculate water_gallon = roof_length_ft * roof_width_ft * 144 * rainfall_inches/231
 
+End Main
