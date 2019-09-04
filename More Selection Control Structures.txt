@@ -1,0 +1,69 @@
+1. Process customer record
+
+Main Module{
+	Declare String name 
+	Declare Integer tax_code 
+	/*0  tax exempt (0%)  
+	1  state sales tax only (3%) 
+	2  federal and state sales tax (5%) 
+	3  special sales tax (7%) */
+
+	Declare Flaot tax
+	Declare Float purchase_amount
+	Declare Float toral
+
+	Input user's name
+	Input tax_code
+	Get name and tax_code
+	Switch(tax_code){
+		case "0":
+			Calculate tax=0;
+			total=purchase_amount;
+			System.out.Println("name: "+name+" "+"sales tax: 0 "+"total: "+total);
+			break;
+
+		case "1":
+			Calculate tax=purchase_amount*0.3;
+			total=purchase_amount+tax;
+			System.out.Println("name: "+name+" "+"sales tax: "+tax+" "+"total: "+total);
+			break;
+		case "2":
+			Calculate tax=purchase_amount*0.5;
+			total=purchase_amount+tax;
+			System.out.Println("name: "+name+" "+"sales tax: "+tax+" "+"total: "+total);
+			break;
+
+		case "3":
+			Calculate tax=purchase_amount*0.7;
+			total=purchase_amount+tax;
+			System.out.Println("name: "+name+" "+"sales tax: "+tax+" "+"total: "+total);
+			break;
+        	default:
+           		 System.out.println("Something wrong");
+	}
+}
+End Modele
+
+2. Calculate employee's pay
+
+Main Module{
+	Declare Integer employee_number
+	Declare Integer pay_rate  
+	Declare Integer hours  
+	Declare Float pay
+	if(pay_rate<=25 && pay_rate>=0 && hours<=60){
+		if(hours<=35 && hours>=0){
+			Calculate pay=hours*pay_rate;
+			System.out.println("weekly pay: "+pay);}
+		if(hours>35){
+			Calculate pay=(hours-35)*0.5*pay_rate+35*pay_rate;
+			System.out.println("weekly pay: "+pay);}
+		else{
+			System.out.println("out of range);}
+		}
+	else{
+
+		System.out.println("out of range);}
+		
+}
+End Modele
