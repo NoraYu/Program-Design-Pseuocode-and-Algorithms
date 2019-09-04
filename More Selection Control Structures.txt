@@ -42,7 +42,7 @@ Main Module{
            		 System.out.println("Something wrong");
 	}
 }
-End Modele
+End Module
 
 2. Calculate employee's pay
 
@@ -66,4 +66,4 @@ Main Module{
 		System.out.println("out of range);}
 		
 }
-End Modele
+End Module
